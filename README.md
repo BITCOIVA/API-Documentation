@@ -7,9 +7,9 @@ In order to use a public API method, you must make an HTTP request to the approp
 Public API Methods :
 These methods can be accessed without an account or API key.
 
- Tickers:
+# Tickers:
  
- Link : GET https://bitcoiva.com/api/tickers
+Link : GET https://bitcoiva.com/api/tickers
  
 Response :
 {
@@ -25,7 +25,7 @@ Response :
         },
 }
 
-Pair Details:
+# Pair Details:
 
 Link : POST https://bitcoiva.com/api/pairDetails
 
@@ -44,7 +44,7 @@ Response :
     "taker": "0.25"
 }
 
-Buy Orders:
+# Buy Orders:
 
 Link : POST https://bitcoiva.com/api/getOrders
 
@@ -63,7 +63,7 @@ Response :
 	]
 }
 
-Sell Orders :
+# Sell Orders :
 
 Link :POST https://bitcoiva.com/api/getOrders
  
@@ -82,7 +82,7 @@ Response :
 	]
 }
 
-Market History :
+# Market History :
 
 Link : POST https://bitcoiva.com/api/getHistory
 
